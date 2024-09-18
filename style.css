@@ -9,6 +9,7 @@ html,
     width:30rem;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .container{
     display: flex;
@@ -21,13 +22,14 @@ html,
 }
 
 .card-img{
-    width: 100%;
+    width: 50%;
     height: 40%;
     object-fit: cover;
-    flex-direction: column;
+    flex-direction:column;
     align-items: center;
-
+    flex-wrap: wrap;
     background-size: cover;
+    
 }
 .card-header{
     font-size: 2.2rem;
@@ -36,6 +38,11 @@ html,
 }
 .card-desc{
 
+
 }
+
+
+
+
 
 
