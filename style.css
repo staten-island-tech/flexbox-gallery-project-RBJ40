@@ -16,7 +16,7 @@ html,
     display: flex;
     width: 90vw;
     margin: 2rem, auto;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -33,6 +33,7 @@ html,
     background-size: cover;
     box-shadow: 10px 8px rgb(24, 81, 90);
     
+
 }
 .card-header{
     font-size: 2.2rem;
@@ -41,7 +42,18 @@ html,
 }
 .card-desc{
     box-shadow: 10px 5px gray;
-
+}
+#img1:hover{
+    transition: 1s;
+    box-shadow: rgb(rgb(85, 255, 0));
+}
+#img2:hover{
+    transition: 2s;
+    transform: rotate(360deg);
+}
+#img3:hover{
+    transition: 0.5s;
+    box-shadow: none;
 
 }
 
