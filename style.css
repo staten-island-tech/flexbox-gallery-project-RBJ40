@@ -43,6 +43,25 @@ html,
 .card-desc{
     box-shadow: 10px 5px gray;
 }
+
+#img1{
+    height: 20vw;
+    width: 30vw;
+
+}
+#img2{
+    height: 20vw;
+    width: 10vw;
+}
+#img3{
+    height: 20vw;
+    width: 10vw;
+}
+#img4{
+    height: 20vw;
+    width: 20vw;
+}
+
 #img1:hover{
     transition: 1s;
     box-shadow: rgb(rgb(85, 255, 0));
