@@ -1,16 +1,35 @@
 body,
 html,
 *{
+    display: flex;
     font-size: 10px;
     box-sizing: border-box;
     font-family: 'Times New Roman';
     flex-wrap: wrap;
+    background-color: rgb(6, 203, 6);
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+ 
 }
 .card{
     width:30rem;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+
+}
+@media screen and (max-width: 800px) {
+    .container{
+        animation-name: screen;
+        animation-duration: 5s;
+        0% {background-color: red;}
+        25% {background-color: orange;}
+        50% {background-color: blue;}
+        100% {background-color: green;}
+
+        
+    }
 }
 .container{
     display: flex;
@@ -34,7 +53,6 @@ html,
     background-size: cover;
     box-shadow: 10px 8px rgb(24, 81, 90);
     
-
 }
 .card-header{
     font-size: 2.2rem;
@@ -51,9 +69,10 @@ html,
 
 }
 #img2{
-    position: absolute;
+    flex-direction: row;
     height: 20vw;
     width: 10vw;
+    
 }
 #img3{
     height: 20vw;
@@ -70,11 +89,13 @@ html,
 #img6{
     height: 10vw;
     width:20vw;
+    position: relative;
+    
 }
 
 #img1:hover{
     transition: 1s;
-    box-shadow: rgb(rgb(85, 255, 0));
+    transform: translate(20px, 0px);
 }
 #img2:hover{
     transition: 2s;
