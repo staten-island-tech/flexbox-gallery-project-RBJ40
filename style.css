@@ -17,6 +17,7 @@ html,
     justify-content: space-around;
     flex-wrap: wrap;
     flex-direction: column;
+    
 
 }
 @media screen and (max-width: 800px){
@@ -28,7 +29,7 @@ html,
 .container{
     display: flex;
     width: 90vw;
-    margin: 0, auto;
+    margin: 0 auto;
     padding: 20px;
     flex-direction: row;
     justify-content: space-around;
@@ -104,4 +105,7 @@ html,
 #img5:hover{
     transition: 1s;
     height: 15vw;
+}
+@keyframes animation {
+
 }
