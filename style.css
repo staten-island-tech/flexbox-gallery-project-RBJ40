@@ -10,6 +10,7 @@ html,
     justify-content: space-between;
     flex-direction: row;
     padding: 10px;
+    animation-name: animation;
 }
 .card{
     width: 40rem;
@@ -107,5 +108,8 @@ html,
     height: 15vw;
 }
 @keyframes animation {
+    0% {background-color: aqua;}
+    50% {background-color: beige;}
+    100% {background-color: blue;}
 
 }
