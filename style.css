@@ -9,7 +9,7 @@ html,
     background-color: aqua;
 }
 .card{
-    width: 40rem;
+    width: 30rem;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
